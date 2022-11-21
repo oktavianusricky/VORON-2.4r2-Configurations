@@ -31,9 +31,10 @@ Enjoy...
 - Make sure we choose the correct speed profiles from the GitHub, there are classified with printer that are tuned with Input Shaper or not.
 - For my current setup after tweaking some of the parameters, the printer is printing beautifully without any signs of defects and relatively fast or almost equally fast as the BambuLab X1 Carbon (because I'm comparing the print times in comparison to BambuLab X1 Carbon in BambuStudio)
 
-### Current Projects
+### Current Projects (in Progress)
 - Making a custom **START** and **END** macros with built-in cooldown and probing logic.
-- 
+- Conditional Bed Mesh if the printbed is filled with individual piece or by area.
+- Filament Change and Pause Macro
 
 
 <!---
