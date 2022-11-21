@@ -1,3 +1,6 @@
+> **Warning**
+> This page is still under construction, upcoming changes are still being made daily.
+
 ## Configuration Files and Tuning Guides for VORON 2.4r2
 
 Having built a VORON is a wonderful experiece, it makes me learn so much about the inner guts of a working 3D printer machine. Having said that, my personal V2 is finally serialized back in March/April. So glad to make it to the VORON community (yay). Kudos and props to all VORON, SuperSlicer dev teams. Also for all the user MODS that the community has provided.
