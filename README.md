@@ -1,4 +1,7 @@
 ## Configuration Files and Tuning Guides for VORON 2.4r2
+
+Having built a VORON is a wonderful experiece, it makes me learn so much about the inner guts of a working 3D printer machine. Having said that, my personal V2 is finally serialized back in March/April. So glad to make it to the VORON community (yay). 
+
 My aim for the printer is to reduce the complexity for me (as a user) and other users so we only need to focus on designing rather than tinkering with our machine all the time.
 
 Not that I am not tinkering with the printer at all, but by setting up all the basic automations that can be done, we are minimizing the downtime and complexity of using the machine.
@@ -8,6 +11,7 @@ Don't get me wrong, tinkering will and still be my all-time passion about the ma
 This repo kinda help me track things down as I do various mods, hardware or software changes that may or may not help others to achieve the same thing.
 
 I hope everyone can enjoy and learn more about 3D printers especially with VORONs.
+
 
 Enjoy...
 
@@ -33,10 +37,9 @@ Enjoy...
 - For my current setup after tweaking some of the parameters, the printer is printing beautifully without any signs of defects and relatively fast or almost equally fast as the BambuLab X1 Carbon (because I'm comparing the print times in comparison to BambuLab X1 Carbon in BambuStudio)
 
 ### Weird Quirks and Problems
-- Sometimes my layer especially on a long infill lines are having a gap 
-
+#### 1. Sometimes my layer especially on a long infill lines are having a gap 
 **Solution : Weird thing is as soon as I change the spool holder from the stock one to the one from Prusa MINI with ball bearing the issue is gone surprisingly.**
-  #### Things I've Tried : 
+- Things I've Tried : 
    - Calibrate PA
    - Calibrate IS
    - Calibrate Extruder
@@ -45,7 +48,14 @@ Enjoy...
    - Check Hotend Clog
    - Check Extruder Teeth
 
-- Sometimes if my layer height is beyond 0.2mm (e.g 0.25mm or 0.30mm) the layer is not bonding properly and starts to behave like the earlier issue.
+#### 2. Sometimes if my layer height is beyond 0.2mm (e.g 0.25mm or 0.30mm) the layer is not bonding properly and starts to behave like the earlier issue.
+**Solution : Don't use layer height above 0.20mm (DUHH) but seriously need to recheck all the parameters again and maybe test other printing geometries.**
+
+### Calibrations Steps (in my own sequence)
+- Belt Tension
+- Extruder Steps
+- Input Shaper
+- Pressure Advance
 
 ### Current Projects (in Progress)
 - Making a custom **START** and **END** macros with built-in cooldown and probing logic.
