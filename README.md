@@ -1,8 +1,11 @@
-- 👋 Hi, I’m @oktavianusricky
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+Configuration Files and Tuning Guides for my VORON 2.4r2
+
+There are several hardware configs that I'm using right now :
+
+	Stealthburner toolhead
+	Clockwork 2 extruder
+	Klicky Probe with Auto Z Calibration 
+   
 
 <!---
 oktavianusricky/oktavianusricky is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
