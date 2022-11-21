@@ -1,5 +1,8 @@
 > **Warning**
-> This page is still under construction, upcoming changes are still being made daily.
+> This page is still under construction, upcoming changes are still being tuned.
+
+> **Note**
+> This repository functions my general guidelines for my specific VORON 2.4r2.
 
 ## Configuration Files and Tuning Guides for VORON 2.4r2
 
