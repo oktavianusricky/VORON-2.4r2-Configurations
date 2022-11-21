@@ -10,8 +10,9 @@
 - Trianglelab Phaetus Rapido HF Hotend with 0.4mm nozzle (built-in nozzle from Rapido)
 - SUNLU ABS Black and Orange for the colors
 
-### Slicer of choice : 
-- SuperSlicer 2.4.58.5 and can be found [:here](https://github.com/supermerill/SuperSlicer/releases)
+### Slicer of Choice : 
+- SuperSlicer 2.4.58.5 and can be found [here](https://github.com/supermerill/SuperSlicer/releases)
+- Most of the parameters are derived from [Ellis's profile](https://github.com/AndrewEllis93/Ellis-SuperSlicer-Profiles) which are already fantastic, but there are some parameters that I would like to configure personally (e.g brim gap, skirt, cooling)
 - Please note that the profile is tuned for my specific printer only, it may or may not compatible with yours.
    
 
