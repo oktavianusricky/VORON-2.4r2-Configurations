@@ -1,5 +1,5 @@
 > **Warning**
-> This page is still under construction, upcoming changes are still being tuned.
+> This page is still under construction, upcoming changes are still being tested.
 
 > **Note**
 > This repository functions my general guidelines for my specific VORON 2.4r2.
@@ -39,7 +39,9 @@ Enjoy...
 - Specifically I am using the UHF 30mm3 version of the profile but I think all of them are the same besides the maximum volumetric flow rate (but please do re-check).
 - Please note that the profile is tuned for my specific printer only, it may or may not compatible with yours.
 
-## Notes About Ellis's Profile
+
+> **Note**
+> About Ellis's Profile
 - The profiles are already great from the get-go, but as always if we want to we can always customize the parameters that are suitable for our needs.
 - Make sure we choose the correct speed profiles from the GitHub, there are classified with printers with **Input Shaper** and without and also with the **Maximum Volumetric Flow Rate.**
 - For my current setup after tweaking some of the parameters, the printer is printing beautifully without any signs of defects and relatively fast or almost equally fast as the BambuLab X1 Carbon (because I'm comparing the print times in comparison to BambuLab X1 Carbon in BambuStudio)
@@ -68,6 +70,9 @@ Enjoy...
 *Solution : This is probably just my materials as with SUNLU or eSUN PLA or ABS, the edges of the print (e.g panel mount for VORONs) are very easy to curl up causing the layer to get very ugly and poor around those steep chamfer overhangs. I am testing with PETG and so far there are no signs of it whatsoever
 
 ## Calibrations Steps (In My Own Sequence)
+> **Warning**
+> Please check all your wiring and printer configurations first prior to calibrations, make sure all the basic components are functioning correctly.
+
 I know there are a lot of guides on the internet and I've followed all of them precisely.
 After testing and iterating all the guides for calibrations, I found that these steps are giving me the most accurate results with a logical sequence and requirements.
 - [Gantry Squaring](https://github.com/AndrewEllis93/Print-Tuning-Guide/blob/main/articles/voron_v2_gantry_squaring.md) and [De-racking](https://www.youtube.com/watch?v=cOn6u9kXvy0) -< **V2 Specific**
