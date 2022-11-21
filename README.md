@@ -1,10 +1,20 @@
-Configuration Files and Tuning Guides for my VORON 2.4r2
+# Configuration Files and Tuning Guides for VORON 2.4r2
 
-There are several hardware configs that I'm using right now :
+## Hardware Configurations :
+- Formbot Kit 300mm3
+- 300 x 300 x 250 mm build volume (250mm because of limited Z height)
+- Stealthburner toolhead
+- Clockwork 2 extruder
+- Klicky Probe with Auto Z Calibration Plugin
+- Waveshare 4.3 inch touchscreen with KlipperScreen
+- Trianglelab Phaetus Rapido HF Hotend with 0.4mm nozzle (built-in nozzle from Rapido)
+-
 
-	Stealthburner toolhead
-	Clockwork 2 extruder
-	Klicky Probe with Auto Z Calibration 
+### There are several hardware configs that I'm using right now :
+
+	1. Stealthburner toolhead
+	2. Clockwork 2 extruder
+	3. Klicky Probe with Auto Z Calibration 
    
 
 <!---
