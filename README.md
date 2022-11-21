@@ -23,7 +23,8 @@ Enjoy...
 
 ### Slicer of Choice
 - SuperSlicer 2.4.58.5 and can be found [here](https://github.com/supermerill/SuperSlicer/releases)
-- Most of the parameters are derived from [Ellis's profile](https://github.com/AndrewEllis93/Ellis-SuperSlicer-Profiles) which are already fantastic, but there are some parameters that I would like to configure personally (e.g brim gap, skirt, cooling, flow rate, gcode). Specifically I am using the UHF 30mm3 version of the profile.
+- Most of the parameters are derived from [Ellis's profile](https://github.com/AndrewEllis93/Ellis-SuperSlicer-Profiles) which are already fantastic, but there are some parameters that I would like to configure personally (e.g brim gap, skirt, cooling, flow rate, gcode). 
+- Specifically I am using the UHF 30mm3 version of the profile but I think all of them are the same besides the maximum volumetric flow rate (but please do re-check).
 - Please note that the profile is tuned for my specific printer only, it may or may not compatible with yours.
 
 ### Notes About Ellis's Profile
@@ -31,10 +32,28 @@ Enjoy...
 - Make sure we choose the correct speed profiles from the GitHub, there are classified with printer that are tuned with Input Shaper or not.
 - For my current setup after tweaking some of the parameters, the printer is printing beautifully without any signs of defects and relatively fast or almost equally fast as the BambuLab X1 Carbon (because I'm comparing the print times in comparison to BambuLab X1 Carbon in BambuStudio)
 
+### Weird Quirks and Problems
+- Sometimes my layer especially on a long infill lines are having a gap 
+
+**Solution : Weird thing is as soon as I change the spool holder from the stock one to the one from Prusa MINI with ball bearing the issue is gone surprisingly.**
+  #### Things I've Tried : 
+   - Calibrate PA
+   - Calibrate IS
+   - Calibrate Extruder
+   - Calibrate Flow Rate
+   - Check Belt Tensions
+   - Check Hotend Clog
+   - Check Extruder Teeth
+
+- Sometimes if my layer height is beyond 0.2mm (e.g 0.25mm or 0.30mm) the layer is not bonding properly and starts to behave like the earlier issue.
+
 ### Current Projects (in Progress)
 - Making a custom **START** and **END** macros with built-in cooldown and probing logic.
 - Conditional Bed Mesh if the printbed is filled with individual piece or by area.
 - Filament Change and Pause Macro
+
+
+
 
 
 <!---
