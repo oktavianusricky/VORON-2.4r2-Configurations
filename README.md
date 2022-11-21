@@ -16,7 +16,7 @@ I hope everyone can enjoy and learn more about 3D printers especially with VORON
 Enjoy...
 
 ### Hardware Configurations
-- Formbot Kit 300mm3
+- Formbot 300mm3 Kit
 - 300 x 300 x 250 mm configured build volume (250mm because of limited Z height)
 - Stealthburner toolhead (without the LEDs)
 - Clockwork 2 extruder (with LDO pancake stepper motor)
@@ -24,6 +24,8 @@ Enjoy...
 - Waveshare 4.3 inch touchscreen for KlipperScreen
 - Trianglelab Phaetus Rapido HF Hotend with 0.4mm nozzle (built-in nozzle from Rapido)
 - SUNLU ABS Black and Orange for the colors
+- LDO-36STH17-1004AHG for the Extruder Stepper Motor
+- LED Bar Clips from [Eddie](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/eddie/LED_Bar_Clip/LED_Bar_Clip_Misumi_version2.stl) 
 
 ### Slicer of Choice
 - SuperSlicer 2.4.58.5 and can be found [here](https://github.com/supermerill/SuperSlicer/releases)
@@ -38,7 +40,7 @@ Enjoy...
 
 ### Weird Quirks and Problems
 #### 1. Sometimes my layer especially on a long infill lines are having a gap 
-**Solution : Weird thing is as soon as I change the spool holder from the stock one to the one from Prusa MINI with ball bearing the issue is gone surprisingly.**
+*Solution : Weird thing is as soon as I change the spool holder from the stock one to the one from Prusa MINI with ball bearing the issue is gone surprisingly.*
 - Things I've Tried : 
    - Calibrate PA
    - Calibrate IS
@@ -49,13 +51,20 @@ Enjoy...
    - Check Extruder Teeth
 
 #### 2. Sometimes if my layer height is beyond 0.2mm (e.g 0.25mm or 0.30mm) the layer is not bonding properly and starts to behave like the earlier issue.
-**Solution : Don't use layer height above 0.20mm (DUHH) but seriously need to recheck all the parameters again and maybe test other printing geometries.**
+*Solution : Don't use layer height above 0.20mm (DUHH) but seriously need to recheck all the parameters again and maybe test other printing geometries.*
+
+#### 3. Z Drift when printing enclosed in an elevated chamber temperature causing the nozzle offset to change during printing.
+
+*Solution : Using Klicky Probe and Auto Z Calibration plug-in seems working when starting the print but not during the print as the frame members expand with temperature. <- need to recheck this again with different chamber temperature and other mods (e.g gantry backers, virtual gantry backers and changing the Relative Reference Index to the far corner of the bed.)*
+
 
 ### Calibrations Steps (in my own sequence)
 - Belt Tension
 - Extruder Steps
 - Input Shaper
 - Pressure Advance
+- Retraction Distance and Speed
+- Profile Tuning 
 
 ### Current Projects (in Progress)
 - Making a custom **START** and **END** macros with built-in cooldown and probing logic.
