@@ -14,7 +14,6 @@ All of these are based on my specific configurations and machine only and it may
 
 I hope everyone can enjoy and learn more about 3D printers especially with VORONs.
 
-
 Enjoy...
 
 ### Hardware Configurations
@@ -82,7 +81,6 @@ After testing and iterating all the guides for calibrations, I found that these 
 - Making a custom **START** and **END** macros with built-in cooldown and probing logic.
 - Conditional Bed Mesh if the printbed is filled with individual piece or by area.
 - Filament Change and Pause Macro
-
 
 
 
