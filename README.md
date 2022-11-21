@@ -91,12 +91,17 @@ After testing and iterating all the guides for calibrations, I found that these 
 - Profile Tuning  
 
 ## Current Projects (in Progress)
+> **Note**
+> The current project can change depending on the difficulty and feasibility of the mod.
 - Making a custom **START** and **END** macros with built-in cooldown and probing logic.
 - Conditional Bed Mesh if the printbed is filled with individual piece or by area.
 - Filament Change and Pause Macro.
 - KlipperScreen menu change.
+- A more accurate print time estimation.
 
-
+## Future Projects 
+- Translation to Indonesian language.
+- Links for buying the parts.
 
 
 
