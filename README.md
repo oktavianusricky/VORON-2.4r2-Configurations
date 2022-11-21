@@ -8,13 +8,10 @@
 - Klicky Probe with Auto Z Calibration Plugin
 - Waveshare 4.3 inch touchscreen with KlipperScreen
 - Trianglelab Phaetus Rapido HF Hotend with 0.4mm nozzle (built-in nozzle from Rapido)
--
+- SUNLU ABS Black and Orange for the colors
 
 ### There are several hardware configs that I'm using right now :
-
-	1. Stealthburner toolhead
-	2. Clockwork 2 extruder
-	3. Klicky Probe with Auto Z Calibration 
+	SET_PRESSURE_ADVANCE EXTRUDER=extruder ADVANCE=0.04
    
 
 <!---
