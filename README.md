@@ -75,7 +75,8 @@ After testing and iterating all the guides for calibrations, I found that these 
 - Pressure Advance
    - Why pressure advance first? Because PA can reduce the distance of the retractions. That simple.
 - Retraction Distance and Speed
-- Profile Tuning 
+   - Built-in calibration from SuperSlicer works very well for me. For me, maximum retraction distance is less than 1mm and 30mm/s speed. 
+- Profile Tuning  
 
 ## Current Projects (in Progress)
 - Making a custom **START** and **END** macros with built-in cooldown and probing logic.
