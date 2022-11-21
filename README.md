@@ -1,17 +1,18 @@
-# Configuration Files and Tuning Guides for VORON 2.4r2
+## Configuration Files and Tuning Guides for VORON 2.4r2
 
-## Hardware Configurations :
+### Hardware Configurations :
 - Formbot Kit 300mm3
-- 300 x 300 x 250 mm build volume (250mm because of limited Z height)
-- Stealthburner toolhead
-- Clockwork 2 extruder
+- 300 x 300 x 250 mm configured build volume (250mm because of limited Z height)
+- Stealthburner toolhead (without the LEDs)
+- Clockwork 2 extruder (with LDO pancake stepper motor)
 - Klicky Probe with Auto Z Calibration Plugin
-- Waveshare 4.3 inch touchscreen with KlipperScreen
+- Waveshare 4.3 inch touchscreen for KlipperScreen
 - Trianglelab Phaetus Rapido HF Hotend with 0.4mm nozzle (built-in nozzle from Rapido)
 - SUNLU ABS Black and Orange for the colors
 
-### There are several hardware configs that I'm using right now :
-	SET_PRESSURE_ADVANCE EXTRUDER=extruder ADVANCE=0.04
+### Slicer of choice : 
+- SuperSlicer 2.4.58.5 and can be found [:here](https://github.com/supermerill/SuperSlicer/releases)
+- Please note that the profile is tuned for my specific printer only, it may or may not compatible with yours.
    
 
 <!---
