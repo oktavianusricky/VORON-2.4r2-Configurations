@@ -6,6 +6,8 @@
 
 ## Configuration Files and Tuning Guides for VORON 2.4r2
 
+Hey and welcome to my personal repository for my VORON 2.4r2, this functions as my guideline for building, tweaking and modding the VORON 2.4r2 and by no means are suitable for everyone so please if you do, proceed with caution and make sure that everything that are written here are logical and adaptable to your particular printer. 
+
 Having built a VORON is a wonderful experiece, it makes me learn so much about the inner guts of a working 3D printer machine. Having said that, my personal V2 is finally serialized back in March/April. So glad to make it to the VORON community (yay). Kudos and props to all VORON, SuperSlicer dev teams. Also for all the user MODS that the community has provided.
 
 My aim for the printer is to reduce the complexity for me (as a user) and other users so we only need to focus on designing rather than tinkering with our machine all the time.
@@ -91,7 +93,8 @@ After testing and iterating all the guides for calibrations, I found that these 
 ## Current Projects (in Progress)
 - Making a custom **START** and **END** macros with built-in cooldown and probing logic.
 - Conditional Bed Mesh if the printbed is filled with individual piece or by area.
-- Filament Change and Pause Macro
+- Filament Change and Pause Macro.
+- KlipperScreen menu change.
 
 
 
