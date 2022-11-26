@@ -103,6 +103,11 @@ After testing and iterating all the guides for calibrations, I found that these 
 - Translation to Indonesian language.
 - Links for buying the parts.
 
+## Upcoming Mods
+- GE5C Z-Joints
+- Orbiter 2.0 (maybe?)
+- Voron TAP
+
 
 
 <!---
